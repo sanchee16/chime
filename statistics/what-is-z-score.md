@@ -1,7 +1,7 @@
 ##What is z-score?
 
 Z-score is also known as standard score. It is a measure of how many 
-standard deviations is an element from the mean.
+standard deviations is an element away from the mean.
 
 ###z = (X-mu)/sigma
 where X is the value of the element
