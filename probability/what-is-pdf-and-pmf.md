@@ -8,7 +8,7 @@ curve is integral of f(x) between the given limits, we can easily denote it as
 
 P(x1<X<x2) = Integral over range x1, x2 for function f(x)
 
-**PMF** also known as Probability Mass Function is a fucntion that gives the 
+**PMF** also known as Probability Mass Function is a function that gives the 
 probability that a discrete random variable is equal to a value.
 
 f(X=x) = P(X=x)
