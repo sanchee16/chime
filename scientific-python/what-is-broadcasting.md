@@ -2,11 +2,12 @@
 
 This concept helps in resolving the matrix for situations where we have arrays
 of different shapes. Smaller array broadcast/stretch over bigger array so as to
-get comaptible shape arrays. 
+get comaptible shape arrays.
 
 According to numpy docs, it helps in vectorising array operations so that 
 looping occurs in C and not in python. It is usually efficient since there is
-no copying involved and hence less memory is required.
+no copying involved and hence less memory is required because it involves 
+implicit copying.
 
 **Rule:-** Two dimensions are compatible when they are equal or one of them is 
 1.
