@@ -5,9 +5,12 @@ of different shapes. Smaller array broadcast/stretch over bigger array so as to
 get comaptible shape arrays.
 
 According to numpy docs, it helps in vectorising array operations so that 
-looping occurs in C and not in python. It is usually efficient since there is
-no copying involved and hence less memory is required because it involves 
-implicit copying.
+looping occurs in C and not in python. It is usually efficient since we
+stretch the scalar to the shape of the greater shape and hence less memory
+is required. It happens so because it involves implicit copying of variable. 
+
+Though, the process is quiet optimised in numpy but it usually leads to slow 
+computations in case memory assignment is not taken care of.
 
 **Rule:-** Two dimensions are compatible when they are equal or one of them is 
 1.
